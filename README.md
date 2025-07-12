@@ -129,7 +129,7 @@ flowchart TD
         F2[Time Series Analysis<br/>df.resample]
         F3[Text Analysis<br/>df.str methods]
         F4[Categorical Analysis<br/>df.cat methods]
-    end
+    end 
     
     D --> D1
     D --> D2
