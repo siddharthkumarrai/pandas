@@ -11,7 +11,7 @@ labels = ['a','b','c']
 ```python
 pd.Series(list)
 ```
-```python
+```javascript
 ## output :-
 0    101
 1    102
@@ -21,7 +21,7 @@ dtype: int64
 ```python
 pd.Series(arr,index=labels)
 ```
-```python
+```javascript
 output :-
 a    101
 b    102
