@@ -117,11 +117,11 @@ flowchart TD
     end
     
     subgraph "Data Transformation"
-        E1[Filter Data<br/>df[condition]]
-        E2[Group & Aggregate<br/>df.groupby]
-        E3[Merge & Join<br/>pd.merge, df.join]
-        E4[Pivot & Reshape<br/>df.pivot, df.melt]
-        E5[Sort Data<br/>df.sort_values]
+        E1["Filter Data<br/>df condition"]
+        E2["Group & Aggregate<br/>df.groupby"]
+        E3["Merge & Join<br/>pd.merge, df.join"]
+        E4["Pivot & Reshape<br/>df.pivot, df.melt"]
+        E5["Sort Data<br/>df.sort_values"]
     end
     
     subgraph "Data Analysis"
@@ -129,7 +129,7 @@ flowchart TD
         F2[Time Series Analysis<br/>df.resample]
         F3[Text Analysis<br/>df.str methods]
         F4[Categorical Analysis<br/>df.cat methods]
-    end 
+    end
     
     D --> D1
     D --> D2
@@ -182,11 +182,11 @@ graph TD
     end
     
     subgraph "Common Operations"
-        G[df.groupby('column').sum()]
-        H[df.groupby('column').mean()]
-        I[df.groupby('column').count()]
-        J[df.groupby('column').agg(func)]
-        K[df.groupby('column').transform(func)]
+        G["df.groupby column .sum"]
+        H["df.groupby column .mean"]
+        I["df.groupby column .count"]
+        J["df.groupby column .agg func"]
+        K["df.groupby column .transform func"]
     end
     
     C --> C1
@@ -230,24 +230,24 @@ graph TD
     C --> D[Merged DataFrame]
     
     subgraph "Join Types"
-        E[Inner Join<br/>pd.merge(how='inner')]
-        F[Left Join<br/>pd.merge(how='left')]
-        G[Right Join<br/>pd.merge(how='right')]
-        H[Outer Join<br/>pd.merge(how='outer')]
+        E["Inner Join<br/>pd.merge how inner"]
+        F["Left Join<br/>pd.merge how left"]
+        G["Right Join<br/>pd.merge how right"]
+        H["Outer Join<br/>pd.merge how outer"]
     end
     
     subgraph "Merge Methods"
-        I[pd.merge(df1, df2)]
-        J[df1.join(df2)]
-        K[pd.concat([df1, df2])]
-        L[df1.append(df2)]
+        I["pd.merge df1 df2"]
+        J["df1.join df2"]
+        K["pd.concat df1 df2"]
+        L["df1.append df2"]
     end
     
     subgraph "Join Keys"
-        M[Single Key<br/>on='column']
-        N[Multiple Keys<br/>on=['col1', 'col2']]
-        O[Different Names<br/>left_on, right_on]
-        P[Index Join<br/>left_index, right_index]
+        M["Single Key<br/>on column"]
+        N["Multiple Keys<br/>on col1 col2"]
+        O["Different Names<br/>left_on right_on"]
+        P["Index Join<br/>left_index right_index"]
     end
     
     C --> E
@@ -307,9 +307,9 @@ graph TD
     end
     
     subgraph "DateTime"
-        D1[datetime64[ns]]
-        D2[timedelta64[ns]]
-        D3[Period]
+        D1["datetime64 ns"]
+        D2["timedelta64 ns"]
+        D3["Period"]
     end
     
     subgraph "Boolean"
@@ -388,10 +388,10 @@ graph TD
     end
     
     subgraph "Memory Management"
-        D1[df.memory_usage()]
-        D2[df.info(memory_usage='deep')]
-        D3[pd.DataFrame.sparse]
-        D4[del df, gc.collect()]
+        D1["df.memory_usage method"]
+        D2["df.info memory_usage deep"]
+        D3["pd.DataFrame.sparse"]
+        D4["del df gc.collect"]
     end
     
     A --> A1
