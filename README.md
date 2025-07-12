@@ -11,8 +11,7 @@ labels = ['a','b','c']
 ```python
 pd.Series(list)
 ```
-``` PowerShell
-## output :-
+```git
 0    101
 1    102
 2    103
@@ -21,8 +20,7 @@ dtype: int64
 ```python
 pd.Series(arr,index=labels)
 ```
-```PowerShell
-output :-
+```git
 a    101
 b    102
 c    103
