@@ -18,11 +18,15 @@ graph TD
         K["📈 Each Column = Series<br/>Series 1: [Value1, Value4, Value7]<br/>Series 2: [Value2, Value5, Value8]<br/>Series 3: [Value3, Value6, Value9]"]
     end
     
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#f3e5f5
-    style D fill:#f3e5f5
-    style E fill:#f3e5f5
-    style J fill:#e8f5e8
-    style K fill:#fff3e0
+    style A fill:#e1f5fe,color:#000000
+    style B fill:#f3e5f5,color:#000000
+    style C fill:#f3e5f5,color:#000000
+    style D fill:#f3e5f5,color:#000000
+    style E fill:#f3e5f5,color:#000000
+    style F fill:#f3e5f5,color:#000000
+    style G fill:#f3e5f5,color:#000000
+    style H fill:#f3e5f5,color:#000000
+    style I fill:#f3e5f5,color:#000000
+    style J fill:#e8f5e8,color:#000000
+    style K fill:#fff3e0,color:#000000
 ```
